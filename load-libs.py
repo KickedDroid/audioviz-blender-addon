@@ -19,3 +19,6 @@ def doesExist():
         print("Downloading librosa through pip...")
     else: 
         print("Required imports already installed.")
+
+if __name__=='__main__':
+    getDeps()
